@@ -1,0 +1,432 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.logo {
+    background-image: url("logotype.svg");
+    height: 45px;
+    width: 143px;
+    padding-left: 20px;
+}
+
+.nav-logo {
+    padding-top: 30px;
+    margin-left: 60px;
+}
+
+.tester {
+    border: 2px;
+    background-color: rgb(75, 134, 135);
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    margin-right: 250px;
+}
+
+.tester p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 6px 6px 6px;
+
+}
+.nav-search{
+    margin-right: 10px;
+}
+.nav-search ul {
+    display: flex;
+    padding-top: 35px;
+
+
+}
+.nav-a {
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-a:hover{
+    color: rgb(136, 136, 136);
+}
+.nav-search2 {
+    padding-top: 50px;
+}
+
+.nav-log {
+    margin-top: 35px;
+}
+/*.nav-sign{
+    padding-top: 35px;
+    padding-right: 30px;
+
+}*/
+.nav-l1 {
+    border: 2px solid rgb(30, 29, 29);
+    color: black;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+
+}
+
+.nav-l2 {
+    margin-top: 4px;
+    border: 2px;
+    background-color: rgb(39, 76, 66);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+}
+
+.hero-sec {
+    height: 460px;
+    background-color: rgb(241, 253, 255);
+}
+
+.hero-sect {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.hero-hedng1 {
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(88, 86, 86);
+}
+
+.hero-hedng1 p {
+    color: rgb(81, 112, 115);
+
+}
+
+.first p {
+    font-size: 4rem;
+    color: black;
+    font-weight: 500;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+.second p {
+    font-size: 1.2rem;
+    color: rgb(72, 72, 72);
+}
+
+.hero-image {
+    background-image: url("img1.webp");
+    height: 390px;
+    width: 680px;
+}
+
+.hero-sec2 {
+    height: 600px;
+    background-color: white;
+    width: 27%;
+    margin: 20px;
+    margin-left: 70px;
+    
+
+}
+
+.box3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    /*margin-left: 80px;*/
+
+}
+
+.sec2-search {
+    padding-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.sec-p {
+    border: 1px solid rgb(208, 209, 210);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 230px;
+    padding-bottom: 15px;
+    display: flex;
+
+}
+
+.sec-p p {
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+}
+
+.span {
+    padding-top: 30px;
+}
+
+.box4 {
+    height: 290px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    /*margin-left: 80px;*/
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 8px;
+
+}
+
+.box4-pic {
+    background-image: url("img3.svg");
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box4 p {
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 18px;
+}
+
+.box5 {
+    border: 1px solid rgb(24, 25, 25);
+    margin: 25px;
+    border-radius: 8px;
+}
+
+.box5 p {
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 75px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+
+}
+.main-pic-box{
+    height: 180px;
+    width: 25%;
+    border: 2px black;
+    background-color: bisque;
+
+}
+.main-panel{
+    display: flex;
+}
+.panel2{
+    height: 1400px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-right: 50px; 
+    margin-bottom: 20px; 
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+.panel-box{
+    /*border: 1px solid black;*/
+    height: 300px;
+    width: 43%;
+    margin: 25px;
+    border-radius: 10px;
+}
+.panel-box2{
+    /*border: 1px solid black;*/
+    height: 300px;
+    width: 43%;
+    margin: 25px;
+    border-radius: 10px;
+}
+.panel-box-pic{
+    height: 290px;
+    width: 102%;
+    background-size:  97%;
+}
+.panel-box-pic:hover{
+    transform:scale(0.9) rotate(0.0001deg)
+}
+.panel-para{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-top: 15px;
+
+}
+.panel-para2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(72, 72, 72);
+}
+.panel3{
+    display: flex;
+}
+.panel4{
+    display: flex;
+    padding-top: 100px;
+}
+.panel5{
+    display: flex;
+    padding-top: 100px;
+}
+.footer{
+    height: 1100px;
+    background-color: rgb(255, 255, 238);
+}
+.section1{
+    margin-left: 500px;
+    padding-top: 90px;
+}
+.s-p1{
+    font-size: 4.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-left: 35px;
+}
+.s-p2{
+    font-size: 20px;
+    color: rgb(107, 105, 105);
+    padding-top: 20px;
+}
+.s-p22{
+    font-size: 20px;
+    color: rgb(107, 105, 105);
+    padding-left: 42px;
+
+}
+.s-logo{
+    border: 2px;
+    background-color: rgb(62, 113, 114);
+    color: white;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 8px;
+}
+.sign-logo{
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.s-p3{
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-left: 190px;
+    color: rgb(96, 96, 96);
+    
+}
+.section3{
+    padding-top: 100px;
+    display: flex;
+}
+.new-logo {
+    background-image: url("logotype.svg");
+    height: 65px;
+    width: 220px;
+    padding-left: 20px;
+    background-size: 240px ;
+}
+.s3-pic{
+    display: flex;
+    padding-top: 180px;
+    padding-left: 80px;
+
+}
+.s3-p1{
+    height: 80px;
+    width: 65px;
+    margin: 10px;
+    background-size:65px;
+   
+}
+.s3-pic2{
+    display: flex;
+    padding-left: 80px;
+}
+
+.s3-p2{
+    height: 80px;
+    width: 65px;
+    margin: 10px;
+    background-size: 65px;
+
+}
+.s3-pht{
+    height: 70px;
+    width: 65px;
+    margin: 10px;
+    background-size: 65px;
+   
+}
+.s3-logo {
+    padding-top: 30px;
+    margin-left: 90px;
+}
+.section-3{
+    padding-left: 20px;
+}
+.sec3-con{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 10px;
+
+
+}
+.sec3-con-head{
+    margin: 12px;
+    padding-right: 10px;
+}
+.section3 ul a{
+    color: rgb(59, 59, 59);
+    font-size: 1rem;
+}
+.section3 ul a:hover{
+    color: rgb(173, 174, 174);
+}
+.s4-con{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 50px;
+
+}
+.s4-icons{
+    display: flex;
+    padding-right: 50px;
+}
+.icon{
+    margin: 15px;
+}
+.foot-text{
+    padding-left: 900px;
+
+}
